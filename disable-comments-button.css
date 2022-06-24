@@ -1,0 +1,6 @@
+/*            HackMD Tweaks - Disable Comments Button          */
+/* This disables the "Show all comments" button found on notes */
+
+.ui-open-comments {
+	display: none;
+}

@@ -1,0 +1,7 @@
+/*                       HackMD Tweaks - Font changer                        */
+/* This is for changing font sizes on the Editor, as well as the font in use */
+
+.CodeMirror {
+	font-size: var(--custom-editor-font-size);
+	font-family: var(--custom-editor-font);
+}
