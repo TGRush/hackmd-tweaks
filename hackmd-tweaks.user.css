@@ -1,3 +1,4 @@
+@-moz-document domain("hackmd.io") {
 /*     HackMD Tweaks      */
 /* Made with <3 by TGRush */
 
@@ -18,3 +19,4 @@
 
 --custom-editor-font: "Fira Code" /* put your custom font for the Editor here */
 --custom-editor-font-size: 17px; /* put your custom Font Size for the Editor here! */
+}
