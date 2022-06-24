@@ -13,15 +13,15 @@
 
 /* these are some fixes I made to the website */
 /* these are generally smaller fixes, like the odd spcaing on mobile devices */
-@import url(hackmd-tweaks.github.io/fixes.css)
+@import url(tgrush.github.io/hackmd-tweaks/fixes.css)
 
 /* Extra Imports */
 /* Remove the slashes and dots to uncomment, this will enable any given tweak! */
 
-/* @import url(hackmd-tweaks.github.io/colorful-buttons.css); */
-/* @import url(hackmd-tweaks.github.io/font-changer.css); */
-/* @import url(hackmd-tweaks.github.io/disable-comments-button.css); */
-/* @import url(hackmd-tweaks.github.io/remove-changelogs-and-adverts.css); */
+/* @import url(tgrush.github.io/hackmd-tweaks/colorful-buttons.css); */
+/* @import url(tgrush.github.io/hackmd-tweaks/font-changer.css); */
+/* @import url(tgrush.github.io/hackmd-tweaks/disable-comments-button.css); */
+/* @import url(tgrush.github.io/hackmd-tweaks/remove-changelogs-and-adverts.css); */
 
 /* Variables */
 /* These are variables used for e.g FontChanger */
