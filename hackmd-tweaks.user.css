@@ -41,7 +41,7 @@
     }
     
     if (disableChangelogAds == 1) {
-        .announcement-area {
+        .announcement-area, .announcement-label-area {
             display: none!important;
         }
     }
