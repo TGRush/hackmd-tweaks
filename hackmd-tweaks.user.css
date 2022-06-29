@@ -9,6 +9,7 @@
 @var checkbox disableComments "Disable Comments" 0
 @var checkbox colorfulButtons "More colorful buttons" 0
 @var checkbox mobilePaddingFix "Fix padding for small window sizes" 0
+@var checkbox disableChangelogAds "Disable Changelod and Ads in header" 0
 
 ==/UserStyle== */
 
@@ -37,5 +38,11 @@
     	    background-color: #5cb85c!important;
     	    color: white!important;
     	}
+    }
+    
+    if (disableChangelogAds == 1) {
+        .announcement-area {
+            display: none!important;
+        }
     }
 }
