@@ -1,7 +1,0 @@
-/*                         HackMD Tweaks - Fixes                         * /
-/* A set of fixes I made for HackMD Tweaks, this gets imported by default */
-
-/* Fix odd right margin on Mobile devices and smaller window sizes */
-.markdown-body {
-	margin-right: auto!important;
-}

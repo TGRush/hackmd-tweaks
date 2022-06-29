@@ -1,31 +1,26 @@
 /* ==UserStyle==
 @name           HackMD Tweaks
 @namespace      github.com/TGRush/hackmd-tweaks
-@version        0.1.0
-@description    Tweaks for Hackmd.io
+@version        1.0.0
+@description    Various tweaks for HackMD
 @author         TGRush
-@preprocessor   stylus
+
+@var checkbox disableComments "Disable Comments" 0
+@var checkbox colorfulButtons "More colorful buttons" 0
+@var checkbox mobilePaddingFix "Fix padding for small window sizes" 0
+
 ==/UserStyle== */
 
-@-moz-document domain("hackmd.io") {
-/*     HackMD Tweaks      */
-/* Made with <3 by TGRush */
+/* HackMD Tweaks except it's entirely re-written, because the previous approach didn't work */
 
-/* these are some fixes I made to the website */
-/* these are generally smaller fixes, like the odd spcaing on mobile devices */
-@import url(tgrush.github.io/hackmd-tweaks/fixes.css)
+/* Fixes */
+.markdown-body {
+	margin-right: auto!important;
+}
 
-/* Extra Imports */
-/* Remove the slashes and dots to uncomment, this will enable any given tweak! */
+/* Disable Comments */
 
-/* @import url(tgrush.github.io/hackmd-tweaks/colorful-buttons.css); */
-/* @import url(tgrush.github.io/hackmd-tweaks/font-changer.css); */
-/* @import url(tgrush.github.io/hackmd-tweaks/disable-comments-button.css); */
-/* @import url(tgrush.github.io/hackmd-tweaks/remove-changelogs-and-adverts.css); */
-
-/* Variables */
-/* These are variables used for e.g FontChanger */
-
---custom-editor-font: "Fira Code" /* put your custom font for the Editor here */
---custom-editor-font-size: 17px; /* put your custom Font Size for the Editor here! */
+if (disableComments == 1) {
+.ui-open-comments
+	display: none;
 }
