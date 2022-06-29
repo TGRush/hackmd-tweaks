@@ -13,14 +13,26 @@
 
 /* HackMD Tweaks except it's entirely re-written, because the previous approach didn't work */
 
-/* Fixes */
-.markdown-body {
-	margin-right: auto!important;
+if (disableComments == 1) {
+	.ui-open-comments {
+		display: none;
+	}
 }
 
-/* Disable Comments */
+if (mobilePaddingFix == 1) {
+	.markdown-body {
+		margin-right: auto!important;
+	}
+}
 
-if (disableComments == 1) {
-.ui-open-comments
-	display: none;
+if (colorfulButtons == 1) {
+	.ui-delete-note:hover {
+	    background-color: #c9302c!important;
+	    color: white!important;
+	}
+	
+	.ui-share-copy:hover {
+	    background-color: #5cb85c!important;
+	    color: white!important;
+	}
 }
