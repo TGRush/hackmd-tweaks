@@ -4,6 +4,7 @@
 @version        1.0.0
 @description    Various tweaks for HackMD
 @author         TGRush
+@preprocessor	stylus
 
 @var checkbox disableComments "Disable Comments" 0
 @var checkbox colorfulButtons "More colorful buttons" 0
