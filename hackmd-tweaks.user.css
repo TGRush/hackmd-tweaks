@@ -9,10 +9,10 @@
 @var checkbox disableComments "Disable Comments" 0
 @var checkbox colorfulButtons "More colorful buttons" 0
 @var checkbox mobilePaddingFix "Fix padding for small window sizes" 0
-@var checkbox disableChangelogAds "Disable Changelod and Ads in header" 0
+@var checkbox disableChangelogAds "Disable Changelog and Ads in header" 0
+@var checkbox disableTooltips "Disable Button Tooltips" 0
 
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://hackmd.io") {
     /* HackMD Tweaks except it's entirely re-written, because the previous approach didn't work */
     
@@ -42,6 +42,12 @@
     
     if (disableChangelogAds == 1) {
         .announcement-area {
+            display: none!important;
+        }
+    }
+    
+    if (disableTooltips == 1) {
+        .tooltip-inner, .tooltip-arrow {
             display: none!important;
         }
     }
